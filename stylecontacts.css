@@ -1,7 +1,7 @@
 .composition {
 	position: relative;
  	width: 1920px;
- 	height: 3000px;
+ 	height: 1080px;
  	background: url("back.png");
 }
 
@@ -90,7 +90,7 @@ height: auto;
 
 .map {
     position: absolute;
-    top: 9%;
+    top: 26%;
     left: 100px;
 }
 
