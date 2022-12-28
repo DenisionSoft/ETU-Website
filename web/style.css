@@ -1,0 +1,16 @@
+
+
+
+ #head{
+    position: fixed;
+     top:0;
+    width: 100%;
+    background: #c7fcec;
+    height: 70px;
+     min-height: 2em;
+}
+ #rectangle_4 {
+     position: relative;
+     margin-bottom: 70px;
+ }
+/*p {margin-top: 70px;}*/

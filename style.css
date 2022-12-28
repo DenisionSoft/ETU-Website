@@ -1,0 +1,143 @@
+.composition {
+	position: relative;
+ 	width: 1900px;
+ 	height: 3000px;
+ 	background: url("back.png");
+}
+
+.header{
+    height:100px;
+    width:1000px;
+    margin: 0 auto;
+    background-color: #7f9680;
+    border-radius: 30px;
+    border: 1px solid #7f9680;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+    
+
+    
+.links a{
+    font-size:30px;
+    font-weight:bold;
+    color: #f8f8f5;
+    text-decoration: none;
+    display: inline-block;
+    height:50px;
+    width:260px;
+}
+
+.chose{
+    height:49px;
+    width:2000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+}
+
+.maintext {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    color: #415d1e;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+}
+
+.motto-cont{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:300px;
+    width:100%;
+    background-color: #f8f8f5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+.motto {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #415d1e;
+    text-align: center;
+    margin-top: 34px;
+    width:80%;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 100;
+    font-stretch: ultra-expanded;
+}
+
+.members-cont{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:760px;
+    width:100%;
+    background-color: #d9d9d9;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.members {
+    position: relative;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #415d1e;
+    text-align: center;
+    width:100%;
+    font-family:  'Unbounded', cursive;
+    font-weight: 900;
+    font-stretch: ultra-expanded;
+}
+
+.table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #415d1e;
+    text-align: center;
+    margin-top: 380px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 800;
+    font-stretch: ultra-expanded;
+    width: 100%;
+}
+
+.brand-list {
+    font-size: 30px;
+    color: #415d1e;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+}
+
+.brands {
+    font-size: 25px;
+    color: #609223;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+}
