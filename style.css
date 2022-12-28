@@ -1,7 +1,7 @@
 .composition {
 	position: relative;
  	width: 1900px;
- 	height: 3000px;
+ 	height: 4000px;
  	background: url("back.png");
 }
 
@@ -43,7 +43,7 @@
 
 .maintext {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 180px;
@@ -57,7 +57,7 @@
 
 .motto-cont{
     position: absolute;
-    top: 35%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     height:300px;
@@ -71,7 +71,7 @@
 
 .motto {
     position: absolute;
-    top: 36%;
+    top: 31%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
@@ -86,7 +86,7 @@
 
 .members-cont{
     position: absolute;
-    top: 52%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     height:760px;
@@ -113,7 +113,7 @@
 
 .table {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
@@ -140,4 +140,51 @@
     text-align: center;
     font-family: 'Verdana', sans-serif;
     font-weight: 700;
+}
+
+.event-cont{
+    position: absolute;
+    top: 55%;
+    background-color: #6f9272c0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:220px;
+    width:100%;
+    text-align: center;
+}
+
+.event-head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #d9d9d9;
+    width:100%;
+    font-family:  'Unbounded', cursive;
+    font-weight: 700;
+    font-stretch: ultra-expanded;
+}
+
+.eventlist{
+    position: absolute;
+    top: 65%;
+    background-color: #d9d9d9b7;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:530px;
+    width:100%;
+    text-align: center;
+}
+
+.events {
+    position: absolute;
+    top: 10%;
+    font-size: 20px;
+    color: #415d1e;
+    text-align: center;
+    width:30%;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+    font-stretch: ultra-expanded;
 }
